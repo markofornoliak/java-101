@@ -11,7 +11,7 @@ public class HelloWorld {
 
         System.out.print("Welcome to the Club Penguin money converter!");
         System.out.print("How many coins do you have? ");
-        int coins = scanner.nextInt(); 
+        double coins = scanner.nextDouble(); 
 
         double dollars = coins * exchangeRate;
         
